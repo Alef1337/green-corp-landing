@@ -36,6 +36,7 @@ button {
     cursor: pointer;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
+    transition: all 0.2s;
 }
 
 .about__image {
@@ -108,4 +109,49 @@ button {
     display: flex;
     flex-direction: column;
     text-align: left;
+}
+
+.form label {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.form input {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.form select {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.form__submit {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+select {
+    appearance: none;
+}
+
+input {
+    outline: none;
+}
+
+button:hover {
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: all 0.3s ease-in;
 }
