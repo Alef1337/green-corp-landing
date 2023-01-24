@@ -96,6 +96,12 @@ button {
     text-align: center;
 }
 
+.form form {
+    display: grid;
+    grid-gap: 20px;
+    margin-top: 60px;
+}
+
 .form h1 {
     font-size: 48px;
 }
